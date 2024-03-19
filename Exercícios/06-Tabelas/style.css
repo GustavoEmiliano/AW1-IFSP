@@ -1,0 +1,10 @@
+.tabelaNomes{
+    color: cadetblue;
+      display: flex;
+      justify-content: center;
+}
+.tabelaGrupos{
+    color:red;
+    display: flex;
+    justify-content: center;
+}
