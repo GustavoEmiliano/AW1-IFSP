@@ -1,0 +1,27 @@
+body{
+    background-image: url('https://st.depositphotos.com/71109760/60563/i/450/depositphotos_605631226-stock-photo-abstract-background-space-your-projects.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+header {
+    background-image: linear-gradient(to right, #0000CD, #FF0000);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.tabelaNomes {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tabelaGrupos {
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+}

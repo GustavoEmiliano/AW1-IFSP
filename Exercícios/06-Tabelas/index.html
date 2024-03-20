@@ -1,56 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
-
-    <link rel="stylesheet" href="style.css">
-
-
+    <!-- Vincule o arquivo CSS externo -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Adicionei um estilo CSS interno para centralizar o título -->
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-    <em><h1>Tabelas</h1></em>
-
-        <strong><p>Esta é uma página destinada a prática da linguagem de marcação html de AW1</p></strong>
-        <strong><p>Aula 06: Tabelas</p><br></strong>
-
-        <div class = "tabelaNomes">
-    <table style="width: 90%;" align-center border="1">
-        <tr>
-            <th>Nome</th>
-            <th>Sobrneome</th>
-        </tr>
-        <tr>
-            <td>Gustavo</td>
-            <td>Emiliano</td>
+    
+    <header>
+        <h1><img src="imgs/tabela.png" alt="tabelas"></h1>
+    </header>        
+    <nav>
+        <ul>
+            <li><a href="#objetivo">Objetivo</a></li>
+            <li><a href="#tabelaNomes">Nomes</a></li>
+        </ul>
+    </nav>
+    <section id="objetivo">
+        <p><strong>Esta é uma página destinada à prática da linguagem de marcação HTML de AW1.</strong></p>
+        <p>Aula 06: Tabelas</p><br>
+    </section>
+    <!-- Corrigi a classe da seção da tabela de nomes -->
+    <section id="tabelaNomes" class="tabelaNomes">
+        <h3>Tabela Nomes</h3>
+        <table style="width: 90%; margin: 0 auto;" border="1"> 
             <tr>
-                <td>Luk</td>
-                <td>Cho Man</td>
+                <th style="text-align: center;">Nome</th>
+                <th style="text-align: center;">Sobrenome</th>
             </tr>
             <tr>
-                <td>Brenda</td>
-                <td>Giron</td>
+                <td style="text-align: center;">Gustavo</td>
+                <td style="text-align: center;">Emiliano</td>
             </tr>
-        </tr>
-        <br><br>
-    </table><br>
-            </div>
-            <div class="tabelaGrupos">
-                <h3>Semi - Finais</h3><br>
-                <table style = "width: 90%;"border="1">
-                <tr>
-                    <th>Grupo A</th>
-                    <td>Palmeiras 0</td>
-                    <td>1 N.Horizontino</td>
-                </tr>
+            <tr>
+                <td style="text-align: center;">Luk</td>
+                <td style="text-align: center;">Cho Man</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">Brenda</td>
+                <td style="text-align: center;">Giron</td>
+            </tr>
+        </table>
+    </section><br>
+
+    <!-- Adicionei a classe correta para a seção da tabela de grupos -->
+    <section class="tabelaGrupos"> 
+        <h3>Semi-Finais</h3><br>
+        <table style="width: 90%; margin: 0 auto;" border="1"> 
+            <tr>
+                <th>Grupo A</th>
+                <td>Palmeiras 0</td>
+                <td>1 N.Horizontino</td>
+            </tr>
+            <tr>
                 <th>Grupo B</th>
                 <td>Santos 0</td>
                 <td>1 Bragantino</td>
-            </table>
-            </div>
-            
-            </table>
+            </tr>
+        </table>
+    </section>
 </body>
+
 </html>
